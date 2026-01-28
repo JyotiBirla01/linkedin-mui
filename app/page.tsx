@@ -91,7 +91,7 @@ export default function LinkedInMuiClone() {
       <Container disableGutters sx={{ maxWidth: 1128, mx: "auto", px: 2, mt: 3 }}>
         <Grid container spacing={3} wrap="nowrap">
           {/* LEFT SIDEBAR */}
-        <Grid item sx={{ width: 225, flexShrink: 0 }}>
+        <Grid sx={{ width: 225, flexShrink: 0 }}>
       <Stack spacing={2}>
     <Card>
       {/* Cover */}
@@ -249,7 +249,7 @@ export default function LinkedInMuiClone() {
           {/* FEED */}
           {/* FEED */}
 <Grid
-  item
+  
   sx={{
     flexGrow: 1,
     minWidth: 0,
@@ -377,7 +377,7 @@ export default function LinkedInMuiClone() {
           </Grid>
 
           {/* RIGHT SIDEBAR */}
-          <Grid item sx={{ width: 300, flexShrink: 0 }}>
+          <Grid  sx={{ width: 300, flexShrink: 0 }}>
             <Stack spacing={2}>
               <Card>
                 <CardContent>
